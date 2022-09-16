@@ -1,0 +1,47 @@
+.slider {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+.slider__item {
+	width: 200px;
+	height: 200px;
+	background-color: aqua;
+}
+
+.left,
+.right {
+	cursor: pointer;
+}
+
+.slider__top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider__bottom {
+	font-size: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.slider__bottom > span:hover {
+	color: aqua;
+}
+
+.selected {
+	color: red;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+	display: none;
+}
+
+.active {
+	display: block;
+}
